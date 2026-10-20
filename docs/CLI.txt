@@ -1,0 +1,12 @@
+usage: forecast_demo.py [-h] (--demo | --data DATA) [--output OUTPUT]
+
+Synthetic accounting-coherent forecast demonstration, newly implemented in
+2026. The original MAAKRO research package is separate. Forecast selection
+uses an early validation period; a later test period is evaluated with that
+choice frozen.
+
+options:
+  -h, --help       show this help message and exit
+  --demo
+  --data DATA
+  --output OUTPUT

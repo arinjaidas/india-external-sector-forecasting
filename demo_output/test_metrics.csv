@@ -1,0 +1,7 @@
+method,series,forecasts,mae,rmse,mase,frozen_selected_method
+ar1,current_account,32,2624.8168354275863,3264.548396303867,0.9356067560986573,False
+ar1,reserve_transactions,32,4415.330382875808,5041.39419844899,,False
+ridge_var,current_account,32,2625.1032781973204,3191.021139639837,0.9358599067052102,False
+ridge_var,reserve_transactions,32,4252.433032481385,5011.24187600941,,False
+seasonal_naive,current_account,32,3096.267566294469,3658.2375513387938,1.1015710562332544,True
+seasonal_naive,reserve_transactions,32,4866.784153422277,5985.882387683703,,True

@@ -1,0 +1,167 @@
+{
+  "publication_date": "2026-10-20",
+  "repository": "https://github.com/arinjaidas/india-external-sector-forecasting",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 54,
+      "sha256": "7ae984b50ced7a800f4d97bc3f53471819f84860bbfc71a8658f1162a9f3fc95"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 769,
+      "sha256": "99670c55116f6352b036f65b879d215d2407c62527c51952d33f480bf2a69951"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 161,
+      "sha256": "226529a2f80dc277d24a19fc76db3779708389691b815cacf6c6dc27228fdcde"
+    },
+    {
+      "path": ".python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 333,
+      "sha256": "eb6d7d725e7828c119af1c26b98401fbc16888225500649d23aa55ccbe70e38a"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 381,
+      "sha256": "d1c53e2e51631ec00b7e3b2e8db22ae777a1d979dcfceae9e40e01f6d890e762"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 607,
+      "sha256": "5bded38c45157b324f6c63e8ca9ed017d3f3068168eeffdc50b95cca1db2106a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4625,
+      "sha256": "305f260e5af920c0e0da67f3fef3bded9564624a8c6b3d5984e61d5811ba6a25"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 1328,
+      "sha256": "45784f75e8eaab67a48a2881706afe13a83ca894c5f37143bc7819ad6c767cf4"
+    },
+    {
+      "path": "assets/header.svg",
+      "bytes": 734,
+      "sha256": "cef8327fc25b273df94fdba2250c1024b186909818bf0f972ad9dabe4601c878"
+    },
+    {
+      "path": "demo_output/forecast_components.csv",
+      "bytes": 908,
+      "sha256": "478d9fb4b90fbe6cb8ee5664a4de113c4c313111f3da46ec97590c9e9dc287da"
+    },
+    {
+      "path": "demo_output/forecast_evaluation.svg",
+      "bytes": 47708,
+      "sha256": "07a4c6d6d58d5669635de56885196658302b6851d048cbfe205edacbd85fa0b2"
+    },
+    {
+      "path": "demo_output/run_metadata.json",
+      "bytes": 725,
+      "sha256": "99caea9432e45ced1e3e5f605cba55c57f45414d2dc84b2a0efdad3457156135"
+    },
+    {
+      "path": "demo_output/synthetic_history.csv",
+      "bytes": 20206,
+      "sha256": "4d21c59f2f5e9cd852477b48edfee31fab2fd561819fc4488d12793f6abf17a4"
+    },
+    {
+      "path": "demo_output/test_metrics.csv",
+      "bytes": 559,
+      "sha256": "0fadbb2586b07d213159dc374b47f66f6bd315ac6fc0cf57c9df76695327710b"
+    },
+    {
+      "path": "demo_output/test_predictions.csv",
+      "bytes": 22977,
+      "sha256": "14bce98f925f6732549fe3470dcc07849ea63637020891434ac8c6a970dba9a4"
+    },
+    {
+      "path": "demo_output/validation_metrics.csv",
+      "bytes": 504,
+      "sha256": "c0350bae0aea2319faf2d706820ac7a4b3bc2c37b33017c2fc95a4591842bfc3"
+    },
+    {
+      "path": "demo_output/validation_predictions.csv",
+      "bytes": 17236,
+      "sha256": "b0772dd12aeaeaca9fbb2f2b7f545e4fcabd9e7efb68797df121cd0c55fda627"
+    },
+    {
+      "path": "docs/CLI.txt",
+      "bytes": 414,
+      "sha256": "4c97599d6f312bb5a2ba7b240bf34c3cf4c14d92dd119312fb6c865b6c68240c"
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 858,
+      "sha256": "236d268f0d37c0be8b750064bbf4bb96bf091f4c3edc76f932af6b49a01f635e"
+    },
+    {
+      "path": "docs/METHODS.md",
+      "bytes": 1688,
+      "sha256": "c8a2bb8b55e7a7486dcf987b7505b471e4334ebf222cedc5767609e738f1375f"
+    },
+    {
+      "path": "docs/ORIGINAL_RESEARCH_STATUS.md",
+      "bytes": 776,
+      "sha256": "52e5f3fdfa46fd5ad0f4a4d2b3942c9aebf74b8b6a2afc8528190b9f088254a8"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 1130,
+      "sha256": "c6302677f15df8006543e6dff26742e735e9e846aa8ec18373c108417e382495"
+    },
+    {
+      "path": "docs/REFERENCES.md",
+      "bytes": 311,
+      "sha256": "1935ae452515ef34fbad3bad6331c2247a84c803ea8fe8fed4a8b607c42920c9"
+    },
+    {
+      "path": "docs/RESEARCH_SCOPE.md",
+      "bytes": 1836,
+      "sha256": "c34cf1ddbf07146dcf1e8722fb51278bbed4ab26c258a94acf1e068d47530d87"
+    },
+    {
+      "path": "docs/RESULTS.md",
+      "bytes": 926,
+      "sha256": "f96cbed63b21ca53173d32c3fca1206470736575ad411fc19e181d60fb6cddd7"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 441,
+      "sha256": "98297b8d155d849ba5793a6b2340db67128a041d0feb0c6c822474f8a51ad63a"
+    },
+    {
+      "path": "docs/environment.json",
+      "bytes": 278,
+      "sha256": "c12143b6512ab77c7898db33d7d05dda805d20f6a8a41feb33906f0dd55ffae2"
+    },
+    {
+      "path": "forecast_demo.py",
+      "bytes": 9621,
+      "sha256": "9d73aa6a6490f5e48de4304b737780545dbb488074b48dafc37ca2709a0e3b7e"
+    },
+    {
+      "path": "notebooks/01_results_walkthrough.ipynb",
+      "bytes": 3747,
+      "sha256": "ed88d772302de2543fd4cc13bc9f94043add1adfcdb1a9246512f09900da714c"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 40,
+      "sha256": "982c24839a17e4ed89742eb74690aca75fbf40aeb1247d88bd456aa37e2f1be2"
+    },
+    {
+      "path": "test_forecast_demo.py",
+      "bytes": 2791,
+      "sha256": "80fec2e6a82d8abbbcd57035a0018a37f9bece4d760dbdb74f1845501ed4d224"
+    }
+  ],
+  "excludes": "This manifest excludes itself to avoid a recursive hash."
+}

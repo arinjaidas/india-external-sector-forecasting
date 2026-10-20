@@ -1,0 +1,16 @@
+{
+  "synthetic": true,
+  "rows": 104,
+  "seed": 20261019,
+  "horizon": 4,
+  "min_train": 48,
+  "validation_origin_count": 6,
+  "test_origin_count": 8,
+  "test_start": "2018Q1",
+  "selected_method": "seasonal_naive",
+  "selection": "Current-account validation MAE; requires 2 percent improvement over seasonal naive. Choice frozen before later test.",
+  "ridge_penalty": 10.0,
+  "source_vintage": "Synthetic data; real-data use is current-vintage retrospective unless true historical vintages are supplied.",
+  "scope": "New public implementation, not the original MAAKRO forecasting package.",
+  "interpretation": "Synthetic forecasting exercise; no historical India forecast accuracy or real-time track record is claimed."
+}
