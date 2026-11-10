@@ -30,3 +30,20 @@ jobs:
         run: python -m unittest discover -v
       - name: Run complete example
         run: python forecast_demo.py --demo --output "${RUNNER_TEMP}/example_output"
+      - name: Generate portfolio review pack
+        run: |
+          python scripts/build_review_pack.py \
+            --results "${RUNNER_TEMP}/example_output" \
+            --output "${RUNNER_TEMP}/example_output/portfolio-review.md" \
+            --source-url "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/tree/${GITHUB_SHA}"
+      - name: Upload portfolio review pack
+        uses: actions/upload-artifact@v7
+        with:
+          name: forecasting-portfolio-review
+          path: |
+            ${{ runner.temp }}/example_output/portfolio-review.md
+            ${{ runner.temp }}/example_output/forecast_evaluation.svg
+            ${{ runner.temp }}/example_output/test_metrics.csv
+            ${{ runner.temp }}/example_output/run_metadata.json
+          if-no-files-found: error
+          retention-days: 14
