@@ -50,6 +50,10 @@ For an isolated environment, run `python -m venv .venv` first. Activate it with 
 
 The [notebook walkthrough](notebooks/01_results_walkthrough.ipynb) explains the saved outputs. Exact command-line options appear in [CLI.txt](docs/CLI.txt).
 
+## Portfolio review pack
+
+The **Verify project** workflow packages the regenerated chart, later-test metrics, run metadata, and a reviewable LinkedIn and résumé draft. Open the successful run and download the `forecasting-portfolio-review` artifact. The pack identifies its source commit and labels the demonstration as synthetic.
+
 ## Documentation
 
 | Guide | What it covers |
